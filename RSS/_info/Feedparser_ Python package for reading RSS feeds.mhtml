@@ -1,0 +1,1404 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://mr-destructive.github.io/techstructive-blog/python-feedparser/
+Subject: Feedparser: Python package for reading RSS feeds
+Date: Tue, 28 May 2024 16:19:52 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--BOj6BYmVtGWwHxKKNtIVhR1RBkN66jovSA25tuEbwB----"
+
+
+------MultipartBoundary--BOj6BYmVtGWwHxKKNtIVhR1RBkN66jovSA25tuEbwB----
+Content-Type: text/html
+Content-ID: <frame-883E3A0EBE756DAE9D76A3E4089819AE@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mr-destructive.github.io/techstructive-blog/python-feedparser/
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-d595efe9-ee84-49a8-bb35-96c6192254de@mhtml.blink" />
+  <title>
+   Feedparser: Python package for reading RSS feeds
+  </title>
+ =20
+  <meta content=3D"width=3Ddevice-width" name=3D"viewport">
+  <meta content=3D"" name=3D"description">
+  <meta content=3D"https://mr-destructive.github.io/techstructive-blog/" pr=
+operty=3D"og:url">
+  <meta content=3D"website" property=3D"og:type">
+  <meta content=3D"Techstructive Blog" property=3D"og:title">
+  <meta content=3D"" property=3D"og:description">
+  <meta content=3D"https://res.cloudinary.com/techstructive-blog/image/uplo=
+ad/v1648373330/blog-media/nnr0gjk0n0wmauvu5yo4.png" property=3D"og:image">
+  <meta content=3D"mr-destructive.github.io" property=3D"twitter:domain">
+  <meta content=3D"https://mr-destructive.github.io/techstructive-blog/" pr=
+operty=3D"twitter:url">
+  <meta content=3D"Techstructive Blog" name=3D"twitter:title">
+  <meta content=3D"" name=3D"twitter:description">
+  <meta content=3D"https://res.cloudinary.com/techstructive-blog/image/uplo=
+ad/v1648373330/blog-media/nnr0gjk0n0wmauvu5yo4.png" name=3D"twitter:image">
+  <link href=3D"https://mr-destructive.github.io/techstructive-blog/tbicon.=
+png" rel=3D"icon" type=3D"image/png">
+  <link href=3D"https://mr-destructive.github.io/techstructive-blog/main.cs=
+s" rel=3D"stylesheet">
+  <meta content=3D"markata 0.2.0" name=3D"generator">
+ </head>
+ <body>
+  <nav>
+   <a href=3D"https://mr-destructive.github.io/techstructive-blog/">
+    <h1 id=3D"blog-title">
+     Techstructive Blog
+    </h1>
+   </a>
+   <div id=3D"shift">
+    This website is now live at
+    <a href=3D"https://meetgor.com/">
+     meetgor.com
+    </a>
+   </div>
+   <ul class=3D"navbar">
+    <li>
+     <a class=3D"navlink" href=3D"https://mr-destructive.github.io/techstru=
+ctive-blog">
+      Home
+     </a>
+    </li>
+    <li>
+     <a class=3D"navlink" href=3D"https://mr-destructive.github.io/techstru=
+ctive-blog/archive/">
+      Archive
+     </a>
+    </li>
+    <li>
+     <a class=3D"navlink" href=3D"https://mr-destructive.github.io/techstru=
+ctive-blog/series/">
+      Series
+     </a>
+    </li>
+    <li>
+     <a class=3D"navlink" href=3D"https://mr-destructive.github.io/techstru=
+ctive-blog/projects/">
+      Projects
+     </a>
+    </li>
+    <li>
+     <a class=3D"navlink" href=3D"https://mr-destructive.github.io/techstru=
+ctive-blog/tils/">
+      Tils
+     </a>
+    </li>
+   </ul>
+  </nav>
+  <hr>
+  <article class=3D"blog-post h-entry">
+   <div id=3D"cover-wrapper">
+    <a href=3D"https://mr-destructive.github.io/techstructive-blog/python-f=
+eedparser/">
+     <img alt=3D"cover image for article" class=3D"thumbnail" src=3D"https:=
+//res.cloudinary.com/techstructive-blog/image/upload/v1648373330/blog-media=
+/nnr0gjk0n0wmauvu5yo4.png">
+    </a>
+   </div>
+   <div id=3D"title-wrapper">
+    <a class=3D"u-url" href=3D"https://mr-destructive.github.io/techstructi=
+ve-blog/python-feedparser/">
+     <h1 class=3D"flair" id=3D"title" style=3D"text-align:right;z-index:2;p=
+adding-right:.2rem">
+      Feedparser: Python package for reading RSS feeds
+     </h1>
+    </a>
+    <a href=3D"https://mr-destructive.github.io/techstructive-blog/python">
+     #python
+    </a>
+    <p>
+     <time class=3D"dt-published post-date" datetime=3D"2022-03-26" style=
+=3D"text-align:right;z-index:2">
+      2022-03-26
+     </time>
+    </p>
+    <div class=3D"h-card p-author" rel=3D"author">
+     <div class=3D"content">
+      <a class=3D"p-name u-url" href=3D"https://mr-destructive.github.io/te=
+chstructive-blog/">
+       <p>
+        <span class=3D"p-given-name">
+         Meet
+        </span>
+        <span class=3D"p-family-name">
+         Gor
+        </span>
+       </p>
+      </a>
+      <p class=3D"p-note">
+       Techstructive Blog
+       <a href=3D"https://twitter.com/MeetGor21">
+        @MeetGor21
+       </a>
+      </p>
+      <p>
+       <a alt=3D"edit post url" href=3D"https://github.com/mr-destructive/t=
+echstructive-blog/edit/gh-pages/blog/posts/2022-03-27-python-feedparser.md"=
+ title=3D"edit this post">
+        edit
+        <span aria-label=3D"" role=3D"img">
+         =E2=9C=8F=EF=B8=8F
+        </span>
+       </a>
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+   </div>
+   <div id=3D"post-body">
+    <h2 id=3D"introduction">
+     Introduction
+    </h2>
+    <p>
+     <a href=3D"https://pypi.org/project/feedparser/">
+      Feedparser
+     </a>
+     is a simple but powerful python package that can be used to extract in=
+formation about a specific webpage or a publication with its RSS feed(not o=
+nly RSS). By providing the RSS feed link, we can get structured information=
+ in the form of python lists and dictionaries. It can be basically used in =
+a pythonic way to read RSS feeds, it is really simple to use and it even no=
+rmalizes different types of feeds.
+    </p>
+    <p>
+     Today, we will be taking a look at the feedparser package in python an=
+d how to extract information from a given RSS feed.
+    </p>
+    <h2 id=3D"what-is-feedparser">
+     What is feedparser
+    </h2>
+    <p>
+     Feedparser is a python package for parsing feeds of almost any type su=
+ch as RSS, Atom, RDF, etc. It is a package that allows us to parse or extra=
+ct information using python semantics. For example, all the latest posts fr=
+om a given blog can be accessed on a list in python, further different attr=
+ibutes like links, images, titles, descriptions, can be accessed within a d=
+ictionary as key-value pairs.
+    </p>
+    <h2 id=3D"installing-feedparser">
+     Installing feedparser
+    </h2>
+    <p>
+     As feedparser is a python package you can install it with pip very eas=
+ily.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code>pip install feedparser
+</code></pre>
+    </div>
+    <p>
+     This will install feedparser in your respective python environment, it=
+ can be a virtual environment or a global environment.
+    </p>
+    <h2 id=3D"using-feedparser">
+     Using feedparser
+    </h2>
+    <p>
+     To test out feedparser, you can open up a python repl, in the environm=
+ent where you installed the Feedparser package.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code>python
+</code></pre>
+    </div>
+    <p>
+     Firstly import the package.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"kn">import</span> <span class=
+=3D"nn">feedparser</span>
+</code></pre>
+    </div>
+    <p>
+     Now, we can use the module in our application to get all of the functi=
+ons or methods from the package.
+    </p>
+    <h2 id=3D"parse-an-rss-feed-url">
+     Parse an RSS feed URL
+    </h2>
+    <p>
+     To parse an RSS feed link, we can simply use the
+     <code>
+      parse
+     </code>
+     function from the feedparser package. The
+     <a href=3D"https://feedparser.readthedocs.io/en/latest/introduction.ht=
+ml">
+      parse
+     </a>
+     function takes in a string that can be a URL or a file path. Generally=
+, the URL seems to be more useful. So, we can look up any RSS feed on the i=
+nternet like your blog's feed, publications feeds, and so on.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feedparser</span><span class=
+=3D"o">.</span><span class=3D"n">parse</span><span class=3D"p">(</span><spa=
+n class=3D"s2">"url_of_the_rss_feed"</span><span class=3D"p">)</span>
+</code></pre>
+    </div>
+    <p>
+     The parse function basically fetches the feed from the provided URL or=
+ the file. It extracts the feed in a systematic way storing each piece of i=
+nformation in a structured format. At the high level, it returns a dictiona=
+ry with a few key-value pairs. Further, each key might have a list or neste=
+d dictionaries in it. The key identifiers are named in a uniform manner for=
+ any feed you parse in the function. Though there might be a few cases wher=
+e there might be additional information to be parsed, it can even add more =
+information ad shape the structure accordingly.
+    </p>
+    <p>
+     This will give you a dictionary in python, that can have more or less =
+similar keys. The most common keys that can be used in extracting informati=
+on are
+     <code>
+      entries
+     </code>
+     and
+     <code>
+      feed
+     </code>
+     . We can get all the keys associated with a feed that is parsed using =
+the
+     <code>
+      keys
+     </code>
+     function.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feedparser</span><span class=
+=3D"o">.</span><span class=3D"n">parse</span><span class=3D"p">(</span><spa=
+n class=3D"s2">"url_of_the_rss_feed"</span><span class=3D"p">)</span><span =
+class=3D"o">.</span><span class=3D"n">keys</span><span class=3D"p">()</span=
+>
+</code></pre>
+    </div>
+    <p>
+     <img alt=3D"Feedparser Keys" src=3D"https://res.cloudinary.com/techstr=
+uctive-blog/image/upload/v1648370871/blog-media/ph6bsxobyifqmusumirx.png">
+    </p>
+    <p>
+     The keys function basically gets all the keys in the dictionary in pyt=
+hon.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code>&gt;&gt;&gt; feedparser.parse("https://dev.to/=
+feed/").keys()
+dict_keys(['bozo', 'entries', 'feed', 'headers', 'etag', 'href', 'status', =
+'encoding', 'version', 'namespaces'])
+</code></pre>
+    </div>
+    <p>
+     This will give out a list of all the keys in the feed which we have pa=
+rsed from the RSS feed previously. From this list of keys, we can extract t=
+he required information from the feed.
+    </p>
+    <p>
+     Before we extract content from the feed, we can store the dictionary t=
+hat we get from calling the parse function. We can assign it to a variable =
+and store the dictionary for later use.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feed</span> <span class=3D"o=
+">=3D</span> <span class=3D"n">feedparser</span><span class=3D"o">.</span><=
+span class=3D"n">parse</span><span class=3D"p">(</span><span class=3D"s2">"=
+url_of_the_rss_feed"</span><span class=3D"p">)</span>
+</code></pre>
+    </div>
+    <h2 id=3D"extract-the-contents-from-the-feed">
+     Extract the contents from the feed
+    </h2>
+    <p>
+     Now, we have the dictionary of the feed, we can easily access the valu=
+es from the listed keys. We can get the list of all the posts/podcasts/entr=
+ies or any other form of content the feed is serving for from the
+     <code>
+      entries
+     </code>
+     key in the dictionary.
+    </p>
+    <p>
+     To get more information and the most possible keys in the returned dic=
+tionary, you can refer to the feedparser
+     <a href=3D"https://feedparser.readthedocs.io/en/latest/reference.html"=
+>
+      reference list
+     </a>
+    </p>
+    <h3 id=3D"access-articles-from-feed">
+     Access Articles from Feed
+    </h3>
+    <p>
+     To access the articles from the feed, we can access those as a list of=
+ the articles. Using the
+     <code>
+      entries
+     </code>
+     key in the dictonary as follows:
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feedparser</span><span class=
+=3D"o">.</span><span class=3D"n">parse</span><span class=3D"p">(</span><spa=
+n class=3D"s2">"url_of_the_rss_feed"</span><span class=3D"p">)[</span><span=
+ class=3D"s2">"entries"</span><span class=3D"p">]</span>
+
+<span class=3D"n">OR</span>
+
+<span class=3D"n">feedparser</span><span class=3D"o">.</span><span class=3D=
+"n">parse</span><span class=3D"p">(</span><span class=3D"s2">"url_of_the_rs=
+s_feed"</span><span class=3D"p">)</span><span class=3D"o">.</span><span cla=
+ss=3D"n">entries</span>
+</code></pre>
+    </div>
+    <p>
+     If you have already defined a variable set to the parse function, you =
+can use that for more efficient extraction.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feed</span> <span class=3D"o=
+">=3D</span> <span class=3D"n">feedparser</span><span class=3D"o">.</span><=
+span class=3D"n">parse</span><span class=3D"p">(</span><span class=3D"s2">"=
+url_of_the_rss_feed"</span><span class=3D"p">)</span>
+
+<span class=3D"n">feed</span><span class=3D"p">[</span><span class=3D"s1">'=
+entries'</span><span class=3D"p">]</span>
+
+<span class=3D"n">OR</span>=20
+
+<span class=3D"n">feed</span><span class=3D"o">.</span><span class=3D"n">en=
+tries</span>
+</code></pre>
+    </div>
+    <h3 id=3D"get-number-of-articlesentries-from-feed">
+     Get Number of Articles/Entries from Feed
+    </h3>
+    <p>
+     To get the number of entries in the list, we can simply use the len fu=
+nction in python.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"nb">len</span><span class=3D"p"=
+>(</span><span class=3D"n">feed</span><span class=3D"o">.</span><span class=
+=3D"n">entries</span><span class=3D"p">)</span>
+
+<span class=3D"n">OR</span>=20
+
+<span class=3D"nb">len</span><span class=3D"p">(</span><span class=3D"n">fe=
+edparser</span><span class=3D"o">.</span><span class=3D"n">parse</span><spa=
+n class=3D"p">(</span><span class=3D"s2">"url_of_the_rss_feed"</span><span =
+class=3D"p">)</span><span class=3D"o">.</span><span class=3D"n">entries</sp=
+an><span class=3D"p">)</span>
+</code></pre>
+    </div>
+    <p>
+     <img alt=3D"Feedparser Number of Entries" src=3D"https://res.cloudinar=
+y.com/techstructive-blog/image/upload/v1648371042/blog-media/didijxcvsgvl4s=
+crnhje.png">
+    </p>
+    <p>
+     This gives us the number of entries in the provided feed. This is basi=
+cally the list that stores all the content from the publication/website. So=
+, we can iterate over the list and find all the different attributes we can=
+ extract.
+    </p>
+    <h3 id=3D"get-details-of-the-entries-from-the-feed">
+     Get details of the entries from the feed
+    </h3>
+    <p>
+     To get detail information about a particular article/entry in the feed=
+, we can iterate over the
+     <code>
+      feed.entries
+     </code>
+     list and access what we require.
+    </p>
+    <p>
+     So, we will iterate over the entries and simply print those entries on=
+e by one to inspect what and how we can extract them.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"k">for</span> <span class=3D"n"=
+>entry</span> <span class=3D"ow">in</span> <span class=3D"n">feed</span><sp=
+an class=3D"o">.</span><span class=3D"n">entries</span><span class=3D"p">:<=
+/span>
+  <span class=3D"nb">print</span><span class=3D"p">(</span><span class=3D"n=
+">entry</span><span class=3D"p">)</span>
+</code></pre>
+    </div>
+    <p>
+     It turns out that every entry in the list is a dictionary again contai=
+ning a few key-value pairs like
+     <code>
+      title
+     </code>
+     ,
+     <code>
+      summary
+     </code>
+     ,
+     <code>
+      link
+     </code>
+     , etc. To get a clear idea of those keys we can again use the keys fun=
+ction in python.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feed</span> <span class=3D"o=
+">=3D</span> <span class=3D"n">feedparser</span><span class=3D"o">.</span><=
+span class=3D"n">parse</span><span class=3D"p">(</span><span class=3D"s2">"=
+url_of_the_rss_feed"</span><span class=3D"p">)</span>
+<span class=3D"nb">print</span><span class=3D"p">(</span><span class=3D"n">=
+feed</span><span class=3D"o">.</span><span class=3D"n">entries</span><span =
+class=3D"p">[</span><span class=3D"mi">0</span><span class=3D"p">]</span><s=
+pan class=3D"o">.</span><span class=3D"n">keys</span><span class=3D"p">())<=
+/span>
+</code></pre>
+    </div>
+    <p>
+     <img alt=3D"Feedparser Entries Keys" src=3D"https://res.cloudinary.com=
+/techstructive-blog/image/upload/v1648371221/blog-media/c8uog85goe9jzrzl1pq=
+1.png">
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"o">&gt;&gt;&gt;</span> <span cl=
+ass=3D"n">feed</span><span class=3D"o">.</span><span class=3D"n">entries</s=
+pan><span class=3D"p">[</span><span class=3D"mi">0</span><span class=3D"p">=
+]</span><span class=3D"o">.</span><span class=3D"n">keys</span><span class=
+=3D"p">()</span>
+<span class=3D"n">dict_keys</span><span class=3D"p">([</span><span class=3D=
+"s1">'title'</span><span class=3D"p">,</span> <span class=3D"s1">'title_det=
+ail'</span><span class=3D"p">,</span> <span class=3D"s1">'authors'</span><s=
+pan class=3D"p">,</span> <span class=3D"s1">'author'</span><span class=3D"p=
+">,</span> <span class=3D"s1">'author_detail'</span><span class=3D"p">,</sp=
+an> <span class=3D"s1">'published'</span><span class=3D"p">,</span> <span c=
+lass=3D"s1">'published_parsed'</span><span class=3D"p">,</span> <span class=
+=3D"s1">'links'</span><span class=3D"p">,</span> <span class=3D"s1">'link'<=
+/span><span class=3D"p">,</span> <span class=3D"s1">'id'</span><span class=
+=3D"p">,</span> <span class=3D"s1">'guidislink'</span><span class=3D"p">,</=
+span> <span class=3D"s1">'summary'</span><span class=3D"p">,</span> <span c=
+lass=3D"s1">'summary_detail'</span><span class=3D"p">,</span> <span class=
+=3D"s1">'tags'</span><span class=3D"p">])</span>
+</code></pre>
+    </div>
+    <p>
+     Now, we have all the keys associated with the entries we can now extra=
+ct the specific details like the content, like
+     <code>
+      title
+     </code>
+     ,
+     <code>
+      author
+     </code>
+     ,
+     <code>
+      summary_detail
+     </code>
+     (actual content in this case).
+    </p>
+    <p>
+     Though this might not be the same for all RSS feeds, it might be very =
+similar and a matter of using the right keyword for the associated keys in =
+the list of dictionaries.
+    </p>
+    <p>
+     Let's say, we want to print out the titles of all the entries in the f=
+eed, we can do that by iterating over the entries list and fetching the tit=
+le from the iterator as
+     <code>
+      entry.title
+     </code>
+     if
+     <code>
+      entry
+     </code>
+     is the iterator.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"k">for</span> <span class=3D"n"=
+>entry</span> <span class=3D"ow">in</span> <span class=3D"n">feed</span><sp=
+an class=3D"o">.</span><span class=3D"n">entries</span><span class=3D"p">:<=
+/span>
+  <span class=3D"nb">print</span><span class=3D"p">(</span><span class=3D"n=
+">entry</span><span class=3D"o">.</span><span class=3D"n">title</span><span=
+ class=3D"p">)</span>
+</code></pre>
+    </div>
+    <p>
+     <img alt=3D"Feedparser List of Entries" src=3D"https://res.cloudinary.=
+com/techstructive-blog/image/upload/v1648372532/blog-media/lhofdzmr3ks0fuut=
+7pxm.png">
+    </p>
+    <p>
+     Similarly, we will get the links of the entries using the link key in =
+the dictionary.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"k">for</span> <span class=3D"n"=
+>entry</span> <span class=3D"ow">in</span> <span class=3D"n">feed</span><sp=
+an class=3D"o">.</span><span class=3D"n">entries</span><span class=3D"p">:<=
+/span>
+  <span class=3D"nb">print</span><span class=3D"p">(</span><span class=3D"n=
+">entry</span><span class=3D"o">.</span><span class=3D"n">link</span><span =
+class=3D"p">)</span>
+</code></pre>
+    </div>
+    <h3 id=3D"get-information-about-the-websitepublication">
+     Get information about the Website/Publication
+    </h3>
+    <p>
+     To get the metadata about the information you are extracting from i.e.=
+ the website or any publication, we can use the key
+     <code>
+      feed
+     </code>
+     . This key stores another dictionary as its value which might have inf=
+ormation like
+     <code>
+      title
+     </code>
+     ,
+     <code>
+      description
+     </code>
+     or
+     <code>
+      subtitle
+     </code>
+     ,
+     <code>
+      canonical_url
+     </code>
+     , or any other data related to the website company.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feed</span><span class=3D"o"=
+>.</span><span class=3D"n">feed</span>
+
+<span class=3D"ow">or</span>
+
+<span class=3D"n">feedparser</span><span class=3D"o">.</span><span class=3D=
+"n">parse</span><span class=3D"p">(</span><span class=3D"s2">"url_of_the_rs=
+s_feed"</span><span class=3D"p">)</span><span class=3D"o">.</span><span cla=
+ss=3D"n">feed</span>
+</code></pre>
+    </div>
+    <p>
+     <img alt=3D"Feedparser Feed" src=3D"https://res.cloudinary.com/techstr=
+uctive-blog/image/upload/v1648373487/blog-media/r7hiojfdrtrjqfhkjbdt.png">
+    </p>
+    <p>
+     From this dictionary, we can now simply extract the specific informati=
+on from the keys. But first, as in the previous examples, we need a clear i=
+dea of what are the keys in the dictionary where we can extract the specifi=
+c value.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feed</span><span class=3D"o"=
+>.</span><span class=3D"n">feed</span><span class=3D"o">.</span><span class=
+=3D"n">keys</span><span class=3D"p">()</span>
+
+<span class=3D"ow">or</span>
+
+<span class=3D"n">feedparser</span><span class=3D"o">.</span><span class=3D=
+"n">parse</span><span class=3D"p">(</span><span class=3D"s2">"url_of_the_rs=
+s_feed"</span><span class=3D"p">)</span><span class=3D"o">.</span><span cla=
+ss=3D"n">feed</span><span class=3D"o">.</span><span class=3D"n">keys</span>=
+<span class=3D"p">()</span>
+</code></pre>
+    </div>
+    <p>
+     Using the keys like
+     <code>
+      title
+     </code>
+     ,
+     <code>
+      links
+     </code>
+     ,
+     <code>
+      subtitle
+     </code>
+     , we can get the information on the website/company level and not rela=
+ted to the specific post in the entries list.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"c1"># get the title of the webp=
+age/publication</span>
+<span class=3D"n">feed</span><span class=3D"o">.</span><span class=3D"n">fe=
+ed</span><span class=3D"o">.</span><span class=3D"n">title</span>
+
+<span class=3D"c1"># get the links associated with the webpage</span>
+<span class=3D"n">feed</span><span class=3D"o">.</span><span class=3D"n">fe=
+ed</span><span class=3D"o">.</span><span class=3D"n">links</span>
+
+<span class=3D"c1"># get the cover-image for the webpage</span>
+<span class=3D"n">feed</span><span class=3D"o">.</span><span class=3D"n">fe=
+ed</span><span class=3D"o">.</span><span class=3D"n">image</span>
+</code></pre>
+    </div>
+    <p>
+     You can further get information specific to your feed.
+    </p>
+    <h2 id=3D"checking-for-keys-existence-in-the-dictionary-of-feed">
+     Checking for keys existence in the dictionary of feed
+    </h2>
+    <p>
+     We also need to check for the existence of a key in a dictionary in th=
+e provided feed, this can be a good problem if we are parsing multiple RSS =
+feeds which might have a different structure. This problem occurred to me i=
+n the making of
+     <a href=3D"https://podevcast.netlify.app/">
+      podevcast
+     </a>
+     where I had to parse multiple RSS feeds from different RSS generators.=
+ Some of the feeds had the cover image but most of them didn't. So, we need=
+ to make sure we have a check over those missing keys.
+    </p>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"n">feedlist</span> <span class=
+=3D"o">=3D</span> <span class=3D"p">[</span><span class=3D"s1">'https://fre=
+ecodecamp.libsyn.com/rss'</span><span class=3D"p">,</span> <span class=3D"s=
+1">'https://feeds.devpods.dev/devdiscuss_podcast.xml'</span><span class=3D"=
+p">]</span>
+
+<span class=3D"k">for</span> <span class=3D"n">feed</span> <span class=3D"o=
+w">in</span> <span class=3D"n">feedlist</span><span class=3D"p">:</span>
+    <span class=3D"n">feed</span> <span class=3D"o">=3D</span> <span class=
+=3D"n">feedparser</span><span class=3D"o">.</span><span class=3D"n">parse</=
+span><span class=3D"p">(</span><span class=3D"n">feed</span><span class=3D"=
+p">)</span>
+
+    <span class=3D"nb">print</span><span class=3D"p">(</span><span class=3D=
+"n">feed</span><span class=3D"o">.</span><span class=3D"n">entries</span><s=
+pan class=3D"p">[</span><span class=3D"mi">0</span><span class=3D"p">]</spa=
+n><span class=3D"o">.</span><span class=3D"n">keys</span><span class=3D"p">=
+())</span>
+    <span class=3D"k">for</span> <span class=3D"n">entry</span> <span class=
+=3D"ow">in</span> <span class=3D"n">feed</span><span class=3D"o">.</span><s=
+pan class=3D"n">entries</span><span class=3D"p">:</span>
+        <span class=3D"k">if</span> <span class=3D"s1">'image'</span> <span=
+ class=3D"ow">in</span> <span class=3D"n">entry</span><span class=3D"p">:</=
+span>
+            <span class=3D"n">image_url</span> <span class=3D"o">=3D</span>=
+ <span class=3D"n">entry</span><span class=3D"o">.</span><span class=3D"n">=
+image</span>
+        <span class=3D"k">else</span><span class=3D"p">:</span>
+            <span class=3D"n">image_url</span> <span class=3D"o">=3D</span>=
+ <span class=3D"n">feed</span><span class=3D"o">.</span><span class=3D"n">f=
+eed</span><span class=3D"o">.</span><span class=3D"n">image</span>
+
+        <span class=3D"c1">#print(image_url)</span>
+</code></pre>
+    </div>
+    <div class=3D"highlight">
+     <pre><span></span><code><span class=3D"o">&gt;&gt;&gt;</span> <span cl=
+ass=3D"n">feedlist</span> <span class=3D"o">=3D</span> <span class=3D"p">[<=
+/span><span class=3D"s1">'https://freecodecamp.libsyn.com/rss'</span><span =
+class=3D"p">,</span> <span class=3D"s1">'https://feeds.devpods.dev/devdiscu=
+ss_podcast.xml'</span><span class=3D"p">]</span>
+<span class=3D"o">&gt;&gt;&gt;</span> <span class=3D"k">for</span> <span cl=
+ass=3D"n">feed</span> <span class=3D"ow">in</span> <span class=3D"n">feedli=
+st</span><span class=3D"p">:</span>
+<span class=3D"o">...</span>     <span class=3D"n">feed</span> <span class=
+=3D"o">=3D</span> <span class=3D"n">feedparser</span><span class=3D"o">.</s=
+pan><span class=3D"n">parse</span><span class=3D"p">(</span><span class=3D"=
+n">feed</span><span class=3D"p">)</span>
+<span class=3D"o">...</span>     <span class=3D"k">for</span> <span class=
+=3D"n">entry</span> <span class=3D"ow">in</span> <span class=3D"n">feed</sp=
+an><span class=3D"o">.</span><span class=3D"n">entries</span><span class=3D=
+"p">:</span>
+<span class=3D"o">...</span>             <span class=3D"k">if</span> <span =
+class=3D"s1">'image'</span> <span class=3D"ow">in</span> <span class=3D"n">=
+entry</span><span class=3D"p">:</span>
+<span class=3D"o">...</span>                     <span class=3D"n">image_ur=
+l</span> <span class=3D"o">=3D</span> <span class=3D"n">entry</span><span c=
+lass=3D"o">.</span><span class=3D"n">image</span>
+<span class=3D"o">...</span>             <span class=3D"k">else</span><span=
+ class=3D"p">:</span>
+<span class=3D"o">...</span>                     <span class=3D"n">image_ur=
+l</span> <span class=3D"o">=3D</span> <span class=3D"n">feed</span><span cl=
+ass=3D"o">.</span><span class=3D"n">feed</span><span class=3D"o">.</span><s=
+pan class=3D"n">image</span>
+<span class=3D"o">...</span>     <span class=3D"nb">print</span><span class=
+=3D"p">(</span><span class=3D"n">feed</span><span class=3D"o">.</span><span=
+ class=3D"n">entries</span><span class=3D"p">[</span><span class=3D"mi">0</=
+span><span class=3D"p">]</span><span class=3D"o">.</span><span class=3D"n">=
+keys</span><span class=3D"p">())</span>
+<span class=3D"o">...</span>
+
+<span class=3D"n">dict_keys</span><span class=3D"p">([</span><span class=3D=
+"s1">'title'</span><span class=3D"p">,</span> <span class=3D"s1">'title_det=
+ail'</span><span class=3D"p">,</span> <span class=3D"s1">'itunes_title'</sp=
+an><span class=3D"p">,</span> <span class=3D"s1">'published'</span><span cl=
+ass=3D"p">,</span> <span class=3D"s1">'published_parsed'</span><span class=
+=3D"p">,</span> <span class=3D"s1">'id'</span><span class=3D"p">,</span> <s=
+pan class=3D"s1">'guidislink'</span><span class=3D"p">,</span> <span class=
+=3D"s1">'links'</span><span class=3D"p">,</span> <span class=3D"s1">'link'<=
+/span><span class=3D"p">,</span> <span class=3D"s1">'image'</span><span cla=
+ss=3D"p">,</span> <span class=3D"s1">'summary'</span><span class=3D"p">,</s=
+pan> <span class=3D"s1">'summary_detail'</span><span class=3D"p">,</span> <=
+span class=3D"s1">'content'</span><span class=3D"p">,</span> <span class=3D=
+"s1">'itunes_duration'</span><span class=3D"p">,</span> <span class=3D"s1">=
+'itunes_explicit'</span><span class=3D"p">,</span> <span class=3D"s1">'subt=
+itle'</span><span class=3D"p">,</span> <span class=3D"s1">'subtitle_detail'=
+</span><span class=3D"p">,</span> <span class=3D"s1">'itunes_episode'</span=
+><span class=3D"p">,</span> <span class=3D"s1">'itunes_episodetype'</span><=
+span class=3D"p">,</span> <span class=3D"s1">'authors'</span><span class=3D=
+"p">,</span> <span class=3D"s1">'author'</span><span class=3D"p">,</span> <=
+span class=3D"s1">'author_detail'</span><span class=3D"p">])</span>
+
+<span class=3D"n">dict_keys</span><span class=3D"p">([</span><span class=3D=
+"s1">'title'</span><span class=3D"p">,</span> <span class=3D"s1">'title_det=
+ail'</span><span class=3D"p">,</span> <span class=3D"s1">'links'</span><spa=
+n class=3D"p">,</span> <span class=3D"s1">'link'</span><span class=3D"p">,<=
+/span> <span class=3D"s1">'published'</span><span class=3D"p">,</span> <spa=
+n class=3D"s1">'published_parsed'</span><span class=3D"p">,</span> <span cl=
+ass=3D"s1">'id'</span><span class=3D"p">,</span> <span class=3D"s1">'guidis=
+link'</span><span class=3D"p">,</span> <span class=3D"s1">'tags'</span><spa=
+n class=3D"p">,</span> <span class=3D"s1">'summary'</span><span class=3D"p"=
+>,</span> <span class=3D"s1">'summary_detail'</span><span class=3D"p">,</sp=
+an> <span class=3D"s1">'content'</span><span class=3D"p">,</span> <span cla=
+ss=3D"s1">'subtitle'</span><span class=3D"p">,</span> <span class=3D"s1">'s=
+ubtitle_detail'</span><span class=3D"p">,</span> <span class=3D"s1">'author=
+s'</span><span class=3D"p">,</span> <span class=3D"s1">'author'</span><span=
+ class=3D"p">,</span> <span class=3D"s1">'author_detail'</span><span class=
+=3D"p">,</span> <span class=3D"s1">'itunes_explicit'</span><span class=3D"p=
+">,</span> <span class=3D"s1">'itunes_duration'</span><span class=3D"p">])<=
+/span>
+</code></pre>
+    </div>
+    <p>
+     As we can see we do not have an image key in the second RSS feed which=
+ means each entry doesn't have a unique cover image, so we have to fetch th=
+e image from the
+     <code>
+      feed
+     </code>
+     key then the
+     <code>
+      image
+     </code>
+     key in the entries list.
+    </p>
+    <p>
+     <img alt=3D"Feedparser Cover Image Demo" src=3D"https://res.cloudinary=
+.com/techstructive-blog/image/upload/v1648373275/blog-media/fzdqie5dubigxzf=
+htv2x.png">
+    </p>
+    <p>
+     As we can see here, the image_url will pick up the
+     <code>
+      image
+     </code>
+     key in the dictionary if it is present else we will assign it to anoth=
+er URL which is the website/podcast cover image. This is how we handle exce=
+ptions in providing the keys when there are multiple feeds to be extracted =
+though they are quite similar, they will have subtle changes like this that=
+ need to be handled and taken care of.
+    </p>
+    <h2 id=3D"conclusion">
+     Conclusion
+    </h2>
+    <p>
+     From this little article, we were able to understand and use the feedp=
+arser Python package which can be used to extract information from differen=
+t feeds. We saw how to extract contents for the entries, a number of entrie=
+s in the feed, check for keys in the dictionary, and so on. Using Python's =
+Feedparser package, some of the projects I have created include:
+    </p>
+    <ul>
+     <li>
+      <a href=3D"https://podevcast.netlify.app/">
+       podevcast
+      </a>
+     </li>
+     <li>
+      <a href=3D"https://pypi.org/project/dailydotdev-bookmark-cli/">
+       dailydotdev-bookmark-cli
+      </a>
+     </li>
+     <li>
+      <a href=3D"https://github.com/Mr-Destructive/newsletter">
+       Django Newsletter
+      </a>
+     </li>
+    </ul>
+    <p>
+     For further reading, you can specifically target a feed type by gettin=
+g the appropriate methods from the feedparser
+     <a href=3D"https://feedparser.readthedocs.io/en/latest/">
+      documentation
+     </a>
+    </p>
+    <p>
+     Thank you for reading, if you have any suggestions, additions, feedbac=
+k, please let me know in the comments or my social handles below. Hope you =
+enjoyed reading. Happy Coding :)
+    </p>
+    <div class=3D"prevnext">
+    =20
+     <a class=3D"prev" href=3D"https://mr-destructive.github.io/bash-guide-=
+p1">
+      <svg fill=3D"none" height=3D"50px" viewBox=3D"0 0 24 24" width=3D"50p=
+x" xmlns=3D"http://www.w3.org/2000/svg">
+       <path d=3D"M13.5 8.25L9.75 12L13.5 15.75" stroke=3D"var(--prevnext-c=
+olor-angle)" stroke-linecap=3D"round" stroke-linejoin=3D"round" stroke-widt=
+h=3D"1.5">
+       </path>
+      </svg>
+      <div class=3D"prevnext-text">
+       <p class=3D"prevnext-subtitle">
+        prev
+       </p>
+       <p class=3D"prevnext-title">
+        BASH Scripting Guide - PART - 1
+       </p>
+      </div>
+     </a>
+     <a class=3D"next" href=3D"https://mr-destructive.github.io/crossposter=
+-shellscript">
+      <div class=3D"prevnext-text">
+       <p class=3D"prevnext-subtitle">
+        next
+       </p>
+       <p class=3D"prevnext-title">
+        Crossposting with a single script: Crossposter.sh
+       </p>
+      </div>
+      <svg fill=3D"none" height=3D"50px" viewBox=3D"0 0 24 24" width=3D"50p=
+x" xmlns=3D"http://www.w3.org/2000/svg">
+       <path d=3D"M10.5 15.75L14.25 12L10.5 8.25" stroke=3D"var(--prevnext-=
+color-angle)" stroke-linecap=3D"round" stroke-linejoin=3D"round" stroke-wid=
+th=3D"1.5">
+       </path>
+      </svg>
+     </a>
+    </div>
+   </div>
+   <hr>
+   <div id=3D"show">
+   </div>
+  </article>
+  <hr>
+  <footer>
+   <ul class=3D"social">
+    <li>
+     <a href=3D"https://twitter.com/MeetGor21">
+      Twitter
+      <svg class=3D"svg-icon grey">
+       <use xlink:href=3D"../social-icons.svg#twitter">
+       </use>
+      </svg>
+     </a>
+    </li>
+    <li>
+     <a href=3D"https://www.linkedin.com/in/meetgor/">
+      LinkedIn
+      <svg class=3D"svg-icon grey">
+       <use xlink:href=3D"../social-icons.svg#linkedin">
+       </use>
+      </svg>
+     </a>
+    </li>
+    <li>
+     <a href=3D"https://github.com/Mr-Destructive">
+      GitHub
+      <svg class=3D"svg-icon grey">
+       <use xlink:href=3D"../social-icons.svg#github">
+       </use>
+      </svg>
+     </a>
+    </li>
+    <li>
+     <a href=3D"https://dev.to/mr-destructive">
+      Dev.to
+      <svg class=3D"svg-icon grey">
+       <use xlink:href=3D"../social-icons.svg#devto">
+       </use>
+      </svg>
+     </a>
+    </li>
+    <li>
+     <a href=3D"https://mr-destructive.github.io/techstructive-blog/rss.xml=
+">
+      RSS
+      <svg class=3D"svg-icon orange">
+       <use xlink:href=3D"../social-icons.svg#rss">
+       </use>
+      </svg>
+     </a>
+    </li>
+    <li>
+     <a class=3D"u-email" href=3D"mailto:gormeet711@gmail.com">
+      Email
+     </a>
+    </li>
+   </ul>
+   Techstructive Blog =C2=A9 2022
+  </footer>
+=20
+
+</body></html>
+------MultipartBoundary--BOj6BYmVtGWwHxKKNtIVhR1RBkN66jovSA25tuEbwB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d595efe9-ee84-49a8-bb35-96c6192254de@mhtml.blink
+
+@charset "utf-8";
+
+:root { --prevnext-color-text: #eefbfe; --prevnext-color-angle: #ff6600; --=
+prevnext-subtitle-brightness: 3; }
+
+[data-theme=3D"light"] { --prevnext-color-text: #1f2022; --prevnext-color-a=
+ngle: #ffeb00; --prevnext-subtitle-brightness: 3; }
+
+[data-theme=3D"dark"] { --prevnext-color-text: #eefbfe; --prevnext-color-an=
+gle: #ff6600; --prevnext-subtitle-brightness: 3; }
+
+.prevnext { display: flex; flex-direction: row; justify-content: space-arou=
+nd; align-items: flex-start; }
+
+.prevnext a { display: flex; align-items: center; width: 100%; text-decorat=
+ion: none; }
+
+a.next { justify-content: flex-end; }
+
+.prevnext a:hover { background: rgba(0, 0, 0, 0.024); }
+
+.prevnext-subtitle { color: var(--prevnext-color-text); filter: brightness(=
+var(--prevnext-subtitle-brightness)); font-size: 0.8rem; }
+
+.prevnext-title { color: var(--prevnext-color-text); font-size: 1rem; }
+
+.prevnext-text { max-width: 30vw; }
+------MultipartBoundary--BOj6BYmVtGWwHxKKNtIVhR1RBkN66jovSA25tuEbwB----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mr-destructive.github.io/techstructive-blog/main.css
+
+@charset "utf-8";
+
+html { background: rgb(0, 0, 48); margin: 0px; padding: 0px; }
+
+body { font-size: 1rem; line-height: 1.56; font-family: "Space Mono", monos=
+pace; }
+
+nav { text-align: center; }
+
+nav > ul { list-style-type: none; display: flex; justify-content: center; }
+
+li { font-family: "Space Mono", monospace; }
+
+h1 { font-size: 50px; }
+
+h1, h2, h3, h4 { color: rgb(255, 102, 0); }
+
+article { color: rgb(255, 255, 255); margin-left: 10%; margin-right: 10%; f=
+ont-size: 40px; }
+
+blockquote { border-left: 5px solid rgba(225, 189, 0, 0.79); padding-left: =
+1rem; margin: 1rem; }
+
+li.post { list-style-type: none; background-color: black; max-width: 95%; m=
+argin: 20px; padding: 15px; }
+
+.cover-image { width: 160px; height: 125px; margin: 1%; }
+
+#blog-title { color: rgb(0, 255, 255); font-size: 50px; text-align: center;=
+ }
+
+#title { color: rgb(0, 255, 255); }
+
+pre { max-width: 100%; width: 80%; overflow-x: auto; padding: 0.15rem 0.3re=
+m; }
+
+.tabbed-set { position: relative; display: flex; flex-wrap: wrap; margin: 1=
+em 0px; border-radius: 0.1rem; }
+
+.tabbed-set > input { display: none; }
+
+.tabbed-set label { width: auto; padding: 0.9375em 1.25em 0.78125em; font-w=
+eight: 700; font-size: 0.84em; white-space: nowrap; border-bottom: 0.15rem =
+solid transparent; border-top-left-radius: 0.1rem; border-top-right-radius:=
+ 0.1rem; cursor: pointer; transition: background-color 250ms ease 0s, color=
+ 250ms ease 0s; }
+
+.tabbed-set .tabbed-content { width: 100%; display: none; box-shadow: rgb(2=
+21, 221, 221) 0px -0.05rem; }
+
+.tabbed-set input { position: absolute; opacity: 0; }
+
+h1 { font-weight: 700; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Space Mono", monospace; }
+
+p { font-family: "Space Mono", monospace; font-style: normal; font-variant:=
+ normal; font-weight: 400; line-height: 1.5; font-size: 30px; color: rgb(25=
+5, 255, 255); }
+
+@media only screen and (max-width: 700px) {
+  p { font-size: 18px; }
+}
+
+@media only screen and (max-width: 600px) {
+  p { font-size: 16px; }
+}
+
+@media only screen and (max-width: 500px) {
+  p { font-size: 14px; }
+}
+
+@media only screen and (max-width: 400px) {
+  p { font-size: 20px; }
+}
+
+blockquote { font-family: "Space Mono", monospace; }
+
+code { font-family: "Space Mono", monospace; }
+
+pre { font-family: "Space Mono", monospace; }
+
+a { font-family: "Space Mono", monospace; font-weight: 600; text-decoration=
+: none; color: rgb(37, 250, 166); padding: 0.3rem 0.5rem; display: inline-b=
+lock; }
+
+table { margin: 1rem 0px; border-collapse: collapse; border-spacing: 0px; d=
+isplay: block; max-width: fit-content; overflow-x: auto; white-space: nowra=
+p; }
+
+table thead th { border: 1px solid rgba(255, 255, 255, 0.26); padding: 10px=
+; }
+
+table tbody td { border: 1px solid rgba(255, 255, 255, 0.26); padding: 10px=
+; }
+
+.post-list > .postcard > li > h3 > a { font-size: 120%; font-weight: 500; }
+
+.post-list > .postcard > li > p { font-size: 100%; font-weight: 400; }
+
+img { max-width: 100%; width: 80%; vertical-align: middle; }
+
+figure > img { display: block; }
+
+.wordcount { text-align: right; }
+
+figcaption { font-size: 14px; }
+
+li > ul, li > ol { margin-bottom: 0px; }
+
+blockquote { color: rgb(255, 102, 0); border-left: 4px solid rgb(232, 232, =
+232); padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style=
+: italic; }
+
+blockquote > :last-child { margin-bottom: 0px; }
+
+pre, code { font-size: 15px; border: 1px solid rgb(232, 232, 232); border-r=
+adius: 3px; background-color: rgb(31, 41, 55); }
+
+code { padding: 1px 5px; color: rgb(255, 255, 255); }
+
+pre { padding: 8px 12px; overflow-x: auto; }
+
+pre > code { border: 0px; padding-right: 0px; padding-left: 0px; }
+
+.wrapper { max-width: calc(740px); margin-right: auto; margin-left: auto; p=
+adding-right: 30px; padding-left: 30px; }
+
+@media screen and (max-width: 800px) {
+  .wrapper { max-width: calc(770px); padding-right: 15px; padding-left: 15p=
+x; }
+}
+
+.svg-icon { width: 16px; height: 16px; display: inline-flex; fill: rgb(255,=
+ 255, 255); padding-right: 5px; vertical-align: text-top; }
+
+table { margin-bottom: 30px; width: 100%; text-align: left; color: rgb(63, =
+63, 63); border-collapse: collapse; border: 1px solid rgb(232, 232, 232); }
+
+table tr:nth-child(2n) { background-color: rgb(247, 247, 247); }
+
+table th, table td { padding: 10px 15px; }
+
+table th { background-color: rgb(240, 240, 240); border-width: 1px; border-=
+style: solid; border-color: rgb(222, 222, 222) rgb(222, 222, 222) rgb(201, =
+201, 201); border-image: initial; }
+
+table td { border: 1px solid rgb(232, 232, 232); }
+
+.site-header { border-top: 5px solid rgb(66, 66, 66); border-bottom: 1px so=
+lid rgb(232, 232, 232); min-height: 55.95px; position: relative; }
+
+.site-title { font-size: 36px; font-weight: 900; line-height: 54px; letter-=
+spacing: -1px; margin-bottom: 0px; float: left; }
+
+.site-title, .site-title:visited { color: rgb(109, 250, 234); }
+
+.site-nav { line-height: 54px; font-size: 18px; text-align: center; backgro=
+und-color: rgb(1, 0, 48); color: rgb(255, 255, 255); font-weight: 900; }
+
+.trigger { background-color: rgb(1, 0, 48); color: rgb(255, 255, 255); }
+
+.site-nav .nav-trigger { display: none; text-align: center; background-colo=
+r: rgb(0, 0, 63); }
+
+.site-nav .menu-icon { display: none; }
+
+.site-nav .page-link { color: rgb(255, 255, 255); line-height: 4.5; }
+
+.site-nav .page-link:not(:last-child) { margin-right: 50px; }
+
+@media screen and (max-width: 550px) {
+  .site-nav { position: fixed; top: 40px; right: 15px; background-color: rg=
+b(1, 0, 48); border: 1px solid rgb(232, 232, 232); border-radius: 5px; text=
+-align: right; }
+  .site-nav label[for=3D"nav-trigger"] { display: block; float: right; widt=
+h: 36px; height: 36px; z-index: 2; cursor: pointer; background-color: rgb(1=
+, 0, 48); }
+  .site-nav .menu-icon { display: block; float: right; width: 36px; height:=
+ 26px; line-height: 0; padding-top: 10px; text-align: center; }
+  .site-nav .menu-icon > svg { fill: rgb(255, 255, 255); }
+  .site-nav input ~ .trigger { clear: both; display: none; }
+  .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px;=
+ }
+  .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20=
+px; }
+  .site-nav .page-link:not(:last-child) { margin-right: 0px; }
+}
+
+.page-content { padding: 30px 0px; flex: 1 1 0%; }
+
+.page-heading { font-size: 32px; }
+
+.post-list-heading { font-size: 28px; }
+
+.post-list { margin-left: 0px; list-style: none; }
+
+.post-meta { font-size: 18px; color: rgb(255, 255, 255); }
+
+.subtitle { color: rgb(0, 255, 238); display: block; }
+
+.post-header { margin-bottom: 30px; }
+
+.post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
+
+.tags { color: rgb(0, 255, 238); padding-right: 9px; }
+
+@media screen and (max-width: 800px) {
+  .post-title { font-size: 36px; }
+}
+
+.post-content { margin-bottom: 30px; }
+
+.post-content h2 { font-size: 32px; }
+
+@media screen and (max-width: 900px) {
+  .post-content h2 { font-size: 28px; }
+}
+
+.post-content h3 { font-size: 26px; }
+
+@media screen and (max-width: 900px) {
+  .post-content h3 { font-size: 22px; }
+}
+
+.post-content h4 { font-size: 20px; }
+
+@media screen and (max-width: 900px) {
+  .post-content h4 { font-size: 18px; }
+}
+
+.thumbnail { width: 100%; height: 30%; border-radius: 25px; transition: box=
+-shadow 1s ease 0s; }
+
+.thumbnail:hover { box-shadow: rgb(255, 102, 0) 0px 0px 0px 8px; }
+
+.highlighter-rouge .highlight { background: rgb(31, 41, 55); }
+
+.highlight .c { color: rgb(153, 153, 136); font-style: italic; }
+
+.highlight .err { color: rgb(166, 23, 23); background-color: rgb(227, 210, =
+210); }
+
+.highlight .k { font-weight: bold; }
+
+.highlight .o { font-weight: bold; }
+
+.highlight .cm { color: rgb(153, 153, 136); font-style: italic; }
+
+.highlight .cp { color: rgb(153, 153, 153); font-weight: bold; }
+
+.highlight .c1 { color: rgb(153, 153, 136); font-style: italic; }
+
+.highlight .cs { color: rgb(153, 153, 153); font-weight: bold; font-style: =
+italic; }
+
+.highlight .gd { color: rgb(0, 0, 0); background-color: rgb(255, 221, 221);=
+ }
+
+.highlight .gd .x { color: rgb(0, 0, 0); background-color: rgb(255, 170, 17=
+0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: rgb(170, 0, 0); }
+
+.highlight .gh { color: rgb(153, 153, 153); }
+
+.highlight .gi { color: rgb(0, 0, 0); background-color: rgb(221, 255, 221);=
+ }
+
+.highlight .gi .x { color: rgb(0, 0, 0); background-color: rgb(170, 255, 17=
+0); }
+
+.highlight .go { color: rgb(136, 136, 136); }
+
+.highlight .gp { color: rgb(85, 85, 85); }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(170, 170, 170); }
+
+.highlight .gt { color: rgb(170, 0, 0); }
+
+.highlight .kc { font-weight: bold; }
+
+.highlight .kd { font-weight: bold; }
+
+.highlight .kp { font-weight: bold; }
+
+.highlight .kr { font-weight: bold; }
+
+.highlight .kt { color: rgb(69, 240, 240); font-weight: bold; }
+
+.highlight .m { color: rgb(0, 153, 153); }
+
+.highlight .s { color: rgb(223, 4, 0); }
+
+.highlight .n { color: rgb(0, 255, 0); }
+
+.highlight .na { color: rgb(0, 128, 128); }
+
+.highlight .nb { color: rgb(0, 255, 255); }
+
+.highlight .nc { color: rgb(68, 85, 136); font-weight: bold; }
+
+.highlight .no { color: rgb(0, 128, 128); }
+
+.highlight .ni { color: rgb(128, 0, 128); }
+
+.highlight .ne { color: rgb(153, 0, 0); font-weight: bold; }
+
+.highlight .nf { color: rgb(153, 0, 0); font-weight: bold; }
+
+.highlight .nn { color: rgb(221, 221, 0); }
+
+.highlight .nt { color: rgb(255, 0, 136); }
+
+.highlight .nv { color: rgb(255, 255, 0); }
+
+.highlight .ow { font-weight: bold; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .mf { color: rgb(0, 153, 153); }
+
+.highlight .mh { color: rgb(0, 153, 153); }
+
+.highlight .mi { color: rgb(0, 153, 153); }
+
+.highlight .mo { color: rgb(0, 153, 153); }
+
+.highlight .sb { color: rgb(221, 17, 68); }
+
+.highlight .sc { color: rgb(221, 17, 68); }
+
+.highlight .sd { color: rgb(221, 17, 68); }
+
+.highlight .s2 { color: rgb(221, 17, 68); }
+
+.highlight .sh { color: rgb(221, 17, 68); }
+
+.highlight .si { color: rgb(221, 17, 68); }
+
+.highlight .sx { color: rgb(221, 17, 68); }
+
+.highlight .sr { color: rgb(0, 153, 38); }
+
+.highlight .s1 { color: rgb(221, 17, 68); }
+
+.highlight .ss { color: rgb(153, 0, 115); }
+
+.highlight .bp { color: rgb(153, 153, 153); }
+
+.highlight .vc { color: rgb(0, 128, 128); }
+
+.highlight .vg { color: rgb(0, 128, 128); }
+
+.highlight .vi { color: rgb(0, 128, 128); }
+
+.highlight .il { color: rgb(0, 153, 153); }
+
+.navbar { justify-content: space-around; }
+
+.navlink { list-style-type: none; color: rgb(255, 102, 0); font-size: 1.5em=
+; padding-right: 10px; }
+
+footer { color: rgb(255, 102, 0); list-style-type: none; }
+
+.social { display: flex; list-style-type: none; flex-wrap: wrap; justify-co=
+ntent: center; }
+
+.text-primary { font-size: 2.8rem; font-weight: 700; text-align: center; wi=
+dth: 100%; line-height: 1.6; background-image: linear-gradient(90deg, rgb(0=
+, 255, 119), rgb(0, 255, 238), rgb(255, 102, 0), rgb(0, 245, 255), rgb(0, 2=
+55, 0)); background-size: 400%; color: transparent; -webkit-text-fill-color=
+: transparent; background-clip: text; animation: 20s ease 0s infinite alter=
+nate none running animate; }
+
+@keyframes animate {=20
+  0% { background-position: 0% center; }
+  100% { background-position: 400% center; }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .text-primary { font-size: 2rem; }
+}
+
+.headline { text-align: center; }
+
+.info { color: rgb(0, 255, 255); line-height: 40px; font-family: monospace;=
+ font-size: 20px; }
+
+.tagname { text-align: center; }
+
+input.fuzzy-search { position: relative; justify-content: center; left: 35%=
+; font-size: 15px; height: 30px; }
+
+.prjlist { display: flex; flex-flow: row wrap; place-content: stretch space=
+-evenly; }
+
+.prjlist > li { color: rgb(0, 255, 255); }
+
+.taglist { display: flex; flex-flow: row wrap; place-content: center space-=
+around; align-items: center; }
+
+#shift { position: absolute; z-index: 101; top: 0px; left: 0px; right: 0px;=
+ background: rgb(115, 253, 248); text-align: center; line-height: 2.5; over=
+flow: hidden; box-shadow: black 0px 0px 5px; }
+
+#shift > a { color: rgb(78, 2, 255); }
+
+@-webkit-keyframes slideDown {=20
+  0%, 100% { transform: translateY(-50px); }
+  10%, 90% { transform: translateY(0px); }
+}
+
+.cssanimations.csstransforms #shift { transform: translateY(-50px); animati=
+on: 2.5s ease 1s 1 normal forwards running slideDown; }
+------MultipartBoundary--BOj6BYmVtGWwHxKKNtIVhR1RBkN66jovSA25tuEbwB------
