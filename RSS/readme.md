@@ -71,7 +71,7 @@ Use with your own RSS reader or edit and test with:
 
     rss-fetcher-01.py
 
-    Edit:
+    Edit Line:
     	NewsFeed = feedparser.parse('YOUR_RSS_LINK')
 
 
