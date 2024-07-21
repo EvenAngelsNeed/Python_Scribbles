@@ -12,7 +12,7 @@ import time
 service = Service(GeckoDriverManager().install())
 driver = webdriver.Firefox(service=service)
 
-# Goto webpage with infinite scrolling
+# Goto any webpage with infinite scrolling
 driver.get('https://reddit.com')
 #driver.maximize_window()
 
