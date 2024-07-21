@@ -2,6 +2,7 @@
 ---
 <br>
 <strong>First digit defines class of response:</strong>
+<br>
 
 > 1xx Informational
 > 
