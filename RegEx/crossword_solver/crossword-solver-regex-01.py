@@ -2,16 +2,14 @@
 # Crossword Solver
 
 # To do:
-# Currently only British English - Other
-# languages and spellings could be added.
-
 # There are some issues in the wordlist being used.
 # There might be missing or misspelt words.
 
 
 import re
 
-file = "wordlist01_uk.txt"
+file = "wordlist-us-01.txt"
+#file = "wordlist-uk-01.txt"
 
 with open(file, 'r') as f:
 	text = f.read()

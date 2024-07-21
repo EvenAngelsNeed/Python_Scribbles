@@ -11,13 +11,16 @@ Just a few news feeds to try.
 - [Al Jazeera.](https://www.aljazeera.com/xml/rss/all.xmlhttps://www.aljazeera.com/xml/rss/all.xml)
 - [BBC World News.](http://feeds.bbci.co.uk/news/world/rss.xml)
 - [CNBC.](https://www.cnbc.com/id/100727362/device/rss/rss.html)
-[CNN.](http://rss.cnn.com/rss/edition_world.rss)
-[Google.](https://news.google.com/rss)
+- [CNN.](http://rss.cnn.com/rss/edition_world.rss)
+- [Google.](https://news.google.com/rss)
+- [Japan Times](https://www.japantimes.co.jp/feed)
+- [Le Monde](https://www.lemonde.fr/en/rss/article/2022/06/23/the-rss-feeds-of-monde-fr_5987755_165.html)
 - [NDTV.](http://feeds.feedburner.com/ndtvnews-world-news)
 - [NYT.](https://rss.nytimes.com/services/xml/rss/nyt/World.xml)
-[Reddit.](https://www.reddit.com/r/worldnews/.rss)
-[The Guardian.](https://www.theguardian.com/world/rss)
-[Times of India.](https://timesofindia.indiatimes.com/rssfeeds/296589292.cms)
+- [Reddit.](https://www.reddit.com/r/worldnews/.rss)
+- [Reuters](https://www.reutersagency.com/feed/?taxonomy=best-regions&post_type=best)
+- [The Guardian.](https://www.theguardian.com/world/rss)
+- [Times of India.](https://timesofindia.indiatimes.com/rssfeeds/296589292.cms)
 - [Washington Post.](http://feeds.washingtonpost.com/rss/world)
 - [Yahoo.](https://www.yahoo.com/news/rss/world)
 
@@ -51,7 +54,7 @@ India News:
 
 <br>
 National News From The BBC's Perspective:
-
+<br>
 
 - [BBC Africa.](http://feeds.bbci.co.uk/news/world/africa/rss.xml)
 - [BBC Asia.](http://feeds.bbci.co.uk/news/world/asia/rss.xml)
