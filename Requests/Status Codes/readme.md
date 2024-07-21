@@ -1,5 +1,5 @@
 # Status Codes: #
----
+
 <br>
 <strong>First digit defines class of response:</strong>
 <br>
