@@ -5,6 +5,7 @@ Just a few news feeds to try.
 
 <br>
 <strong>World News:</strong>
+<br>
 
 - [Al Jazeera.](https://www.aljazeera.com/xml/rss/all.xmlhttps://www.aljazeera.com/xml/rss/all.xml)
 - [BBC World News.](http://feeds.bbci.co.uk/news/world/rss.xml)
@@ -22,6 +23,7 @@ Just a few news feeds to try.
 
 <br>
 <strong>National News:</strong>
+<br>
 
 US News:
 
