@@ -4,7 +4,7 @@
 Just a few news feeds to try.
 
 <br>
-*World News:*
+<strong>World News:</strong>
 
 - [Al Jazeera.](https://www.aljazeera.com/xml/rss/all.xmlhttps://www.aljazeera.com/xml/rss/all.xml)
 - [BBC World News.](http://feeds.bbci.co.uk/news/world/rss.xml)
@@ -21,7 +21,7 @@ Just a few news feeds to try.
 
 
 <br>
-** National News: **
+</strong>National News:</strong>
 
 US News:
 
@@ -64,7 +64,7 @@ National News From The BBC's Perspective:
 
 Use with your own RSS reader or edit and test with:
 
-	py
+
     rss-fetcher-01.py
 
     Edit:
