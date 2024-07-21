@@ -1,5 +1,6 @@
 ##Status Codes:##
 
+<br>
 **First digit defines class of response:**
 <br>
 
