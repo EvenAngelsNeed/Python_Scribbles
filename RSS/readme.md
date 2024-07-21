@@ -21,7 +21,7 @@ Just a few news feeds to try.
 
 
 <br>
-</strong>National News:</strong>
+<strong>National News:</strong>
 
 US News:
 
