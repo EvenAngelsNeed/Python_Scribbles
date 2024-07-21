@@ -1,8 +1,7 @@
-##Status Codes:##
-
+# Status Codes: #
+---
 <br>
-**First digit defines class of response:**
-<br>
+<strong>First digit defines class of response:</strong>
 
 > 1xx Informational
 > 
@@ -16,7 +15,7 @@
 
 
 <br>
-**Common codes include:**
+<strong>Common codes include:</strong>
 <br>
 
 > 200 OK - The request succeeded.
