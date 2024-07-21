@@ -14,8 +14,6 @@ htmlParser.ignore_images = True
 
 
 NewsFeed = feedparser.parse('https://www.independent.co.uk/news/world/rss')
-#NewsFeed = feedparser.parse('https://www.independent.co.uk/news/uk/rss')
-#NewsFeed = feedparser.parse('https://feeds.bbci.co.uk/news/world/rss.xml')
 #NewsFeed = feedparser.parse("https://timesofindia.indiatimes.com/rssfeedstopstories.cms")
 #NewsFeed = feedparser.parse("http://hackaday.com/feed") # html in feeds
 #NewsFeed = feedparser.parse("https://traditionalstoicism.com/feed/podcast")
