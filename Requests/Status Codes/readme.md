@@ -3,7 +3,7 @@
 <br>
 <strong>First digit defines class of response:</strong>
 <br>
-
+<br>
 > 1xx Informational
 > 
 > 2xx Success
@@ -18,7 +18,7 @@
 <br>
 <strong>Common codes include:</strong>
 <br>
-
+<br>
 > 200 OK - The request succeeded.
 > 
 > 400 Bad Request - The request had invalid syntax.
@@ -31,7 +31,7 @@
 > 
 > 500 Internal Server Error.
 
-
+<br>
 A basic example is in:
 
 
