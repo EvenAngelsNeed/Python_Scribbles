@@ -49,7 +49,7 @@ print('\nSet description in loop:\n')
 # Set description in loop:
 import glob # New import just for this section.
 
-patern = "scripts\*.exe" # Change folder\*.* to whatever.
+patern = ".\*.*" # Change folder\*.* to whatever.
 files = tqdm.tqdm(glob.glob(patern))
 
 
