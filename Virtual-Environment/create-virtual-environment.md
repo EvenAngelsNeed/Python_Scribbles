@@ -9,7 +9,7 @@
 
 If not already installed:
  
-	pip install virtualenv
+	pip3 install virtualenv
 <br>
 
 Change to or start in the parent folder.
