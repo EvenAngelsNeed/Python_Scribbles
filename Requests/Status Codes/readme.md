@@ -38,7 +38,7 @@
 A basic example is in:
 
 
-    requests_status_code_01.py
+    requests-status-code-01.py
 
 
 Using **requests**. 
