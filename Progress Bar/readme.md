@@ -4,7 +4,9 @@
 tqdm ('taqadum') is a progress bar for python scripts.
 
 <br>
-[Link to: tqdm documentation.](https://tqdm.github.io/)
+
+[Link to: tqdm documentation](https://tqdm.github.io/)
+
 <br>
 
 	pip3 install tqdm
@@ -28,5 +30,5 @@ Basic usage:
 *Be aware that using the print() statement in a tqdm loop will break the bar visually. However you can use 'tqdm.tqdm.write("string")' instead. Printing will appear above the bar.*
 <br>
 
-Some more examples of use in test_tqdm.py
+Some more examples see test_tqdm.py
 
