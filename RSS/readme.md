@@ -28,7 +28,6 @@ Just a few news feeds to try.
 <br>
 
 <strong>National News:</strong>
-
 <br>
 <br>
 
@@ -42,8 +41,6 @@ US News:
 
 UK News:
 
-
-
 - [Sky News UK.](http://feeds.skynews.com/feeds/rss/uk.xml)
 - [BBC.](http://feeds.bbci.co.uk/news/uk/rss.xml)
 - [The Guardian.](https://www.theguardian.com/uk/rss)
@@ -55,7 +52,7 @@ India News:
 
 
 <br>
-National News From The BBC's Perspective:
+National & Continent News From The BBC's Perspective:
 <br>
 <br>
 
@@ -75,7 +72,7 @@ National News From The BBC's Perspective:
 Use with your own RSS reader or edit and test with:
 
 
-    rss-fetcher-01.py
+    Edit: rss-fetcher-01.py
 
     Edit Line:
     	NewsFeed = feedparser.parse('YOUR_RSS_LINK')
