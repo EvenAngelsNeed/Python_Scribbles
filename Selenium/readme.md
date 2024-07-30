@@ -19,4 +19,4 @@ We also need to install:
 
 <br>
 
-That should be it. Since I am using Firefox there are some basic examples in the GeckoDriver-Firefox folder.
+That should be it. Since I am using Firefox there are some basic examples in the GeckoDriver - Firefox folder.
