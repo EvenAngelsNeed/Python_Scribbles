@@ -1,6 +1,7 @@
 # Python: Using ADB for Android
 ----------
 
+*Only works in CMD Windows atm.*
 
 Playing around with subprocess, ADB executable for Android and returning the output.
 
