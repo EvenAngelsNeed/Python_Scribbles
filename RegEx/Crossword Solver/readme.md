@@ -20,7 +20,7 @@ Other languages in separate text files can be found in various places on the int
 
 <br>
 
-Just be careful of some of the encoding of some text files.
+Just be careful of the encoding of some text files.
 
 <br>
 
