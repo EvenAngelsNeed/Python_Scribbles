@@ -19,13 +19,13 @@ It works today but no guarantee for tomorrow. :grin:
 ##### Script Options:
 
 
-If you want to be alerted to updates of your favourite apps edit the following line:
+If you want to be alerted to updates of your favourite apps after the main list shows then edit the following line:
 
 ```python
 watch_words = ["notepad++", "npp", "miranda", "your-app"] # ect...
 ```
 
-If you want none just use: `watch_words = []`
+If you don't want to watch any just use: `watch_words = []`
 
 
 

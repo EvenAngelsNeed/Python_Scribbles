@@ -55,14 +55,25 @@ for idx in range(0, len(appicon)):
 			watching.append([idx+1, img['alt'], appversion[idx].text])
 
 	
+	about = introtext[idx] \
+				.text.replace("  ", "") \
+				.strip() \
+				.title() \
+				.split("\n")[-1]
 	
-	print("About:\t", introtext[idx].text.replace("  ", "").strip().title().split("\n")[-1])
+	
+	about = re.sub("^free ", "", about, flags=re.IGNORECASE)
+	
+	print("About:\t", about)
+	
+	
 	
 	print("Ver:\t", appversion[idx].text)
 	
 	detail = detailview[idx].text.replace("\t", "").replace("\n\n", "")
 	
-	detail = re.search("O/s:(.*?)File Size:(.*?)Price:(.*?)Pop", detail, re.DOTALL)	
+	detail = re.search("O/s:(.*?)File Size:(.*?)Price:(.*?)Pop", \
+						detail, re.DOTALL)	
 
 
 	print("\nInfo:", end='')
