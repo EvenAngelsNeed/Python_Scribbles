@@ -9,16 +9,45 @@ import requests
 
 os.system('cls' if os.name=='nt' else 'clear')
 
-data = requests.get('https://www.snapfiles.com/new/list-freeware-whatsnew.html').content
-
-#htmlfile = 'snapfiles_01.html'
-
-#with open(htmlfile, 'r', errors='ignore') as f:
-#   data = f.read();
-#   f.close
 
 
-# add unique part of favourite app name here to be warned of updates
+url = 'https://www.snapfiles.com/new/list-freeware-whatsnew.html'
+htmlfile = 'snapfiles.com.html'
+
+
+def get_page(choice):
+
+	if choice.lower() == "local":
+		# Local
+		with open(htmlfile, 'r', errors='ignore') as f:
+		   data = f.read();
+		   f.close
+
+
+	elif choice.lower() == "net":
+		# Internet:
+		data = str(requests.get(url).content)
+		
+	else:
+	
+		print("Nothing To Do!")
+		input()
+		exit(1)
+		
+	return data
+		
+
+
+### START HERE
+
+# Choose between "Local" OR "Net"
+
+data = get_page("Local")
+
+
+
+
+# Add unique part of favourite app name here to be warned of updates
 watch_words = ["notepad++", "miranda", "sysgauge"] 
 
 
