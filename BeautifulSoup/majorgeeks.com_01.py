@@ -40,7 +40,7 @@ def get_page(choice):
 
 # Choose between "Local" OR "Net"
 
-data = get_page("Local")
+data = get_page("local")
 
 
 
