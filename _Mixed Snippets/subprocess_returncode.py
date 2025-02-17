@@ -7,13 +7,13 @@ import time
 command = r'notepad'
 
 
-print("\nClose Notepad to get Return Code.")	
+print("\nClose Running Program to get Return Code.")
 
 # subprocess.run is blocking.
 output = subprocess.run(command, shell=True)
 
 
-print(f"Notepad's Return Code: {output.returncode}\n")
+print(f"Return Code: {output.returncode}\n")
 		
 
 # ------------------------------
@@ -37,7 +37,9 @@ if output.poll() > 0:
 else:
 
 	print('\nClosed. Exited with returncode %d' \
-				% output.returncode)
+				% output.returncode) 
+				
+				# Or use output.poll() - Gives returncode as well.
 
 input()
 
