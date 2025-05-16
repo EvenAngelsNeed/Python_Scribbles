@@ -5,8 +5,8 @@ import os
 
 os.system("cls")
 
-# For illustrative purposes.
-package_name = 'wx'
+print("Which Package Are You Looking For?\n")
+package_name = input("Input ackage Name? ")
 
 spec = importlib.util.find_spec(package_name)
 
@@ -40,8 +40,18 @@ if not spec:
 else:
 	
 	print("*", package_name + " is installed.\n")
-	
 
+
+	# Python < 3.8:
+	#import pkg_resources
+
+	#print("Version:", pkg_resources.get_distribution(package_name).version)
+
+
+	# Python >= 3.8:
+	from importlib.metadata import version
+
+	print("Version:", version(package_name))
 
 
 input()

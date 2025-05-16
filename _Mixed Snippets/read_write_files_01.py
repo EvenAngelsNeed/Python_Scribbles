@@ -42,8 +42,8 @@ print("\n===== # =====\n")
 with open("file.bin", "wb") as f:
     data = b"\x48\x65\x6C\x6C\x6F\x20\x57\x6F\x72\x6C\x64\x21" # Hello World! in Hex
     f.write(data)
-    
-    
+
+
 with open("file.bin", "rb") as file:
     binary_data = file.read()
 
@@ -54,6 +54,16 @@ print(binary_data.decode())
 print("\n===== # =====\n")
 
 
+##############
+
+# If getting an encoding or codec issue whilst writing text to file try:
+import codecs
+
+def write_file(filename, data):
+
+	with codecs.open(filename, 'w+', encoding='utf8') as f:
+		f.write(data);
+		f.close
 
 
 input()
