@@ -5,7 +5,7 @@
 
 Playing around with subprocess, ADB executable for Android and returning the output.
 
-I had tried some pakages to do this but wanted something simpler and in my control.
+I had tried some packages to do this but wanted something simpler and in my control.
 
 Just basic tests.
 
@@ -22,6 +22,13 @@ Out of the zip file you only need these 3 files to make the scripts here work:
 - AdbWinUsbApi.dll
 
 Make sure you have enabled USB Debugging on your phone \ tablet and are using a USB data cable.
+
+
+---
+<br>
+
+File > `Push-Pull-ADB-Menu.py` is for use with the KeePass app. It checks date & time of both database.kdbx files and offers option to push or pull and overwrite the file on either PC or mobile. Edit as needed. (The .bat file does similar.)
+
 
 <br>
 
